@@ -1,9 +1,11 @@
 import React from "react";
+import './global.css';
+import BlogPost from './components/blogPost-component.jsx';
 
 function App() {
     return (
-        <div>
-            <h1>Hello, world</h1>
+        <div className="container">
+            <BlogPost />
         </div>
     );
 }

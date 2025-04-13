@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-container {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px black;
+
+    height: 28em;
+    width: 20em;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-rows: auto 2fr;
+    justify-content: center;
+}
+
+.img-container {
+    padding: 0.95em;
+}
+
+.img-container img {
+    max-width: 290px;
+    min-width: 200px;
+
+    border-radius: 10px;
+}
+
+.blog-body {
+    display: grid;
+    grid-template-rows: 0.75fr 0.5fr 2fr 1fr;
+
+    padding: 0.5em 1em;
+}
+
+.status-btn {
+    height: 2.1em;
+    width: 5em;
+    padding: 0 0.5em ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+
+    font-family: Figtree;
+    font-weight: 800;
+    font-size: 0.75rem;
+
+}
+
+.pub-date {
+    color: hsl(0, 0%, 7%);
+    font-family: Figtree;
+    font-size: 0.75rem;
+}
+
+.blog-header, .blog-text {
+    font-family: Figtree;
+}
+
+.blog-header {
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.blog-text {
+    color: hsl(0, 0%, 42%);
+    font-size: 0.85rem;
+    line-height: 1.35em;
+
+    padding-top: 1em;
+}
+
+.blog-user {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: auto 90%;
+    gap: 10px;
+}
+
+.user-img {
+    display: block;
+    width: auto;
+    height: 1.75em;
+}
+
+.user-name {
+    font-weight: 800;
+    font-family: Figtree;
+    font-size: 0.75rem;
+}
